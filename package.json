@@ -1,0 +1,30 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "js pure",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4300 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotADmit/js-constructor.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Di Nirn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotADmit/js-constructor/issues"
+  },
+  "homepage": "https://github.com/dotADmit/js-constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "u": "^0.1.0"
+  }
+}
